@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className="navbar">
       <div className="navbar__content">
         <div className="navbar__content-texts">
-          <p className="navbar__content-title">SafeMap</p>
+          <p className="navbar__content-title">SafeRoute</p>
           <p className="navbar__content-subtitle">
             Explore crime hotspots and safety insights across the city.
           </p>
