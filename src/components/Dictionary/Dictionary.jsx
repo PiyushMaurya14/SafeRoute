@@ -30,25 +30,25 @@ const Dictionary = () => {
                 className="color-dot"
                 style={{ backgroundColor: "#00FF00" }}
               ></span>{" "}
-              Safe (&lt;200 crimes)
+              Safe (4 or above rated)
             </li>
             <li>
               <span
                 className="color-dot"
                 style={{ backgroundColor: "#FFFF00" }}
               ></span>{" "}
-              Moderate (200-600 crimes)
+              Moderate (3-4 rated)
             </li>
             <li>
               <span
                 className="color-dot"
                 style={{ backgroundColor: "#FF0000" }}
               ></span>{" "}
-              High Risk (&gt;600 crimes)
+              High Risk (less than 2 rated)
             </li>
           </ul>
 
-          <h5 className="dictionary__subtitle">Crime Types</h5>
+          {/* <h5 className="dictionary__subtitle">Crime Types</h5>
           <ul className="dictionary__list">
             <li>
               <span
@@ -109,7 +109,7 @@ const Dictionary = () => {
               </p>
               <p>Theft of purses, electronics, bicycles, etc.</p>
             </li>
-          </ul>
+          </ul> */}
         </div>
       )}
     </div>
